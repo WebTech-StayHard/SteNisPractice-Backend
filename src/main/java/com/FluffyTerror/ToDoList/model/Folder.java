@@ -20,6 +20,8 @@ public class Folder {
 
     private String color;
 
+    private String label;
+
     @ManyToOne
     @JoinColumn(name = "task_id")
     private Task tasks;

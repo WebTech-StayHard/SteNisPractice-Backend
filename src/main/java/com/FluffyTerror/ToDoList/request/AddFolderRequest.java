@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 public class AddFolderRequest {
     private String color;
+    private String label;
     private Task tasks;
 }
